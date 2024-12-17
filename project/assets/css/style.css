@@ -1,0 +1,1084 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* section 1 Start*/
+.navpic {
+  border-radius: 70px;
+  margin: 0.5rem 1rem;
+  height:80px ;
+  width:80px;
+}
+
+nav {
+  width: 98%;
+  height: 95px;
+  background-color: rgba(211, 208, 208, 0.772);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50px;
+  position: fixed;
+  top: 2%;
+  z-index: 1;
+
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0rem 2rem ;
+}
+
+nav ul li a {
+  font-size: 1.5rem;
+  color: #464545;
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+nav a:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(255, 217, 0);
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -10px;
+  transition: 1s;
+}
+
+nav a:hover:after {
+  width: 100%;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav .a {
+  text-decoration: none;
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  background-color: #141034;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 45px;
+}
+
+nav .a:hover {
+  background-color: rgb(33, 33, 98);
+}
+
+.cointainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contant {
+  text-align: center;
+  z-index: 2;
+}
+
+.contant h1 {
+  color: rgb(255, 217, 0);
+  font-size: 85px;
+  margin-bottom: 20px;
+  transition: 1s;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contant h1:hover {
+  -webkit-text-stroke: 4px #fff;
+  color: transparent;
+}
+
+.contant p {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.contant a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+  border: 3px solid #fff;
+  padding: 10px 20px;
+  border-radius: 40px;
+  transition: 1s;
+}
+
+.contant a:hover {
+  background-color: gainsboro;
+  color: black;
+}
+
+.backgroundclip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+/* section 1 End*/
+/* section 2 start  */
+
+.main1 {
+  width: 100%;
+  height: 100vh;
+  background-color: cornsilk;
+  padding-top: 70px;
+}
+
+.main2 {
+  width: 77%;
+  margin: auto;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.main2 h1 {
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3rem 1rem 1rem 4rem;
+}
+
+p {
+  font-size: 24px;
+  padding: 1rem 3rem;
+  box-sizing: border-box;
+}
+
+/* section 2 End*/
+/* section 3 start */
+
+.main3 h1 {
+  font-size: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 3rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+  margin: 1rem 2rem ;  
+}
+
+.pic1 {
+  height: 60vh;
+  background-image: url(../media/1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7%;
+}
+
+.pic2 {
+  height: 60vh;
+  background-image: url(../media/2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7%;
+}
+
+.pic3 {
+  height: 60vh;
+  background-image: url(../media/3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7%;
+}
+
+.pic4 {
+  height: 60vh;
+  background-image: url(../media/4.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7%;
+}
+
+.cards h2 {
+  font-size: 30px;
+  padding: 1.5rem;
+}
+
+.cards h3 {
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.cards .h3 {
+  font-size: 20px;
+  padding: .2rem 1rem 0rem 1rem;
+}
+
+.card p {
+  font-size: 25px;
+  padding: 1rem;
+  text-align: left;
+}
+
+.cards button {
+  color: #fff;
+  font-size: 22px;
+  background-color: #141034;
+  padding: 18px 35px;
+  border-radius: 40px;
+  font-weight: 500;
+  border: none;
+  margin: 1rem;
+}
+
+.cards button:hover {
+  background-color: rgb(33, 33, 98);
+}
+
+/* section 3 end */
+/* section 4 start */
+
+.h1 {
+  font-size: 65px;
+  text-align: center;
+  padding: 70px 0px 10px 0px;
+}
+
+.carousel-cell {
+  width: 90%;
+  height: 400px;
+  border-radius: 20px;
+  background-color: rgb(211, 208, 208);
+  border: solid black 2px;
+  padding: 2rem 3rem;
+  text-align: center;
+  margin: 3rem;
+  box-shadow: 4px 5px 15px 3px rgba(0, 0, 0, 0.5), 0 8px 10px 0 rgba(1, 1, 1, 0.19);
+}
+
+.carousel h1 {
+  font-size: 35px;
+  padding: 1rem;
+}
+
+.dp {
+  border-radius: 50px;
+}
+
+/* section 4 end */
+/* section 5 start */
+
+.backgroundclip2 {
+  height: auto;
+  width: 100%;
+  margin-top: 75px;
+}
+
+/* section 5 end */
+/* section 6 start */
+
+.Experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.Experience h1 {
+  font-size: 75px;
+  font-weight: 800;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #141034;
+}
+
+.Experience h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 1rem ;
+}
+
+marquee h1 {
+  padding: 2rem;
+  font-size: 90px;
+}
+
+marquee img {
+  padding: 2rem 1rem ;
+  border-radius: 75px;
+}
+
+/* section 6 end */
+/* section 7 start */
+
+.parallex {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../media/9.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pricing h1 {
+  font-size: 75px;
+  font-weight: 700;
+  padding: 4rem;
+  text-align: center;
+}
+
+.plans-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  margin: 4rem;
+  gap: 45px;
+}
+
+.plans {
+  background-color: whitesmoke;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 75px;
+}
+
+.plans:hover{
+transform: scale(1.07);
+opacity: 0.8;
+}
+.plan {
+  background-color: #0d092c;
+  color: #fff;
+  height: 30vh;
+  text-align: center;
+  border-radius: 20px 20px 1px 1px;
+  box-shadow: 3px 3px 10px 3px #706f8d, 0 8px 10px 0;
+}
+
+.plan h2 {
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.plan h3 {
+  font-size: 23px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.plans p {
+  padding: 2rem 1.9rem;
+}
+
+.plans button {
+  background-color: #141034;
+  color: #fff;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 5rem;
+  font-size: 1.3rem;
+  margin: 2rem 1rem 1rem 2.7rem;
+}
+
+.plans button:hover {
+  background-color: rgb(33, 33, 98);
+}
+
+/* section 7 end */
+/* section 8 start */
+
+.main8 {
+  background-color: rgb(255, 217, 0);
+  display: flex;
+  justify-content: space-between;
+}
+.main8 h1 {
+  font-size: 25px;
+  padding: 4rem;
+}
+.main8 button {
+  font-size: 25px;
+  margin: 2rem;
+  padding: 1rem 3.5rem;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 40px;
+  background-color: rgb(7, 7, 63);
+}
+
+.main8 button:hover {
+  background-color: rgb(33, 33, 98);
+}
+
+.Partners h1 {
+  font-size: 65px;
+  padding: 4rem 2rem 1rem 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.Partnerpics {
+  width: 100%;
+  display: flex;
+}
+
+.Partners img {
+  border-radius: 30px;
+  margin: 4rem 1.3rem;
+  height: 130px ;
+  width: 180px;
+}
+
+.main9 {
+  background-color: cornsilk;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+  padding: 75px 10px 75px 10px;
+}
+.carda {
+  height: 55vh;
+  width: 28%;
+  background-color: #fff;
+  border-radius: 40px;
+  box-shadow: 0 8px 10px 0 rgba(99, 98, 98, 0.5), 0 8px 20px 0 rgba(85, 82, 82, 0.19);
+  animation: grow 2.5s infinite;
+}
+@keyframes grow {
+  0% {
+    transform: scale(.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+.carda img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 35px 135px;
+}
+.main9 h1 {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+.main9 p {
+  font-size: 22px;
+  text-align: center;
+}
+
+/* section 8 end */
+/* section 9 start */
+.main10{
+  height: auto;
+  padding: 50px;
+}
+.main10 h1{
+  font-size: 65px;
+  text-align: center;
+  padding: 50px 10px ;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+
+}
+.icons h2{
+  text-align: center;
+  font-size: 2.5rem ; 
+  color: rgb(9, 9, 114);
+  padding: 1rem 1.7rem;
+  background-color: #bdbdbd;
+  border-radius: 60px;
+  margin: 1rem;
+}
+.lastsection{
+  height: auto;
+  background-color:cornsilk;
+  padding-bottom: 100px;
+}
+.lastsection h1{
+  font-size:65px;
+  font-weight: 700;
+  text-align: center;
+  padding: 75px 10px;
+}
+form input{
+  height: 10vh;
+  width: 30%;
+  font-size: 20px;
+  position: relative;
+  left: 16%;
+  padding: 1.5rem;
+  border-radius: 40px;
+  margin: 1.5rem;
+  border: none;
+}
+form input:hover{
+  border: solid black 3px;
+}
+form textarea{
+  height: 10vh;
+  width: 65%;
+  font-size: 20px;
+  position: relative;
+  left: 16%;
+  padding: 1rem 1rem 0rem 2rem;
+  border-radius: 40px;
+  margin: 1rem;
+  resize: none;
+  border: none;
+}
+form textarea:hover{
+  border: solid black 3px;
+}
+.lastsection button{
+  color: #fff;
+  background-color: #141034;
+  font-size: 28px;
+  padding: 22px 24px;
+  border-radius: 40px;
+  position: relative;
+  left: 40%;
+  align-items: center;
+  border: none;
+  margin-top: 2rem;
+}
+.lastsection button:hover{
+  background-color: rgb(33, 33, 98) ;
+}
+.Contactsection{
+  display: flex;
+  justify-content: center;
+}
+
+.contactcard{
+  width: 40%;
+  background-color: #fff;
+  margin: 1rem;
+  padding:3rem 2rem;
+  border-radius: 30px;
+}
+.contactcard:hover{
+  border: solid 3px black ;
+}
+.contactcard h2{
+  font-size: 42px;
+  padding-bottom: 1.5rem;
+}
+.contactcard h3{
+  font-size: 18px;
+}
+/* section 9 end */
+.footer{
+  height: 25vh;
+  display: flex;
+  background-color: black;
+  color: #fff;
+  font-size: 11px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.links a{
+  text-decoration: none;
+  font-size: 23px;
+  color: #cfcfcf;
+  padding: 1rem;
+}
+.links a:hover{
+  color: #fff;
+}
+
+
+@media (max-width: 1024px){
+  .main1 {
+    height: auto;
+    padding-bottom:75px ;
+  }
+  nav .a{
+    padding: 1.2rem;
+  }
+
+  .cards h2 {
+    font-size: 26px;
+    padding: 1rem;
+  }
+  .cards h3 {
+    font-size: 19px;
+    padding: 1rem  ;
+  }
+  .cards .h3 {
+    font-size: 19px;
+    padding: 1rem 1rem 0rem 1rem;
+  }
+  .card p {
+    font-size: 24px;
+    padding: .5rem;
+    text-align: left;
+  }
+  .h1 {
+    font-size: 55px;
+  }
+  .Experience h1 {
+    font-size: 65px;
+  }
+  
+  .Experience h2 {
+    font-size: 35px;
+  }
+  
+  marquee h1 {
+    font-size: 60px;
+  }
+
+  .pricing h1 {
+    padding: 2rem;
+  }
+  
+  .plans-container {
+    margin: 2rem;
+    gap: 20px;
+  }
+
+  .plan h2 {
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+  }
+  
+  .plans p {
+    padding: 2rem;
+  }
+
+  .plans button {
+    padding: 20px 12px;
+    font-size: 18px;
+    margin: 1rem 2.8rem;
+  }
+  
+  .main8 h1 {
+    font-size: 22px;
+    padding: 3rem 2rem;
+
+  }
+  .main8 button {
+    font-size: 20px;
+    margin: 1rem;
+  }
+
+  .Partners h1 {
+    font-size: 55px;
+  }
+  
+  .Partnerpics img{
+    height: 100px ;
+    width: 135px;
+  }
+  
+  .Partners img {
+    border-radius: 30px;
+    margin: 2rem 1rem;
+  }
+  .main9 {
+    padding: 60px 10px;
+  }
+  .carda {
+    height: 60vh;
+    width: 25%;
+  }
+  .carda img {
+    height: 80px;
+    width: 80px;
+    margin: 20px 85px;
+  }
+  .main9 h1 {
+    font-size: 25px;
+  }
+
+  .main10 h1{
+    font-size: 55px;
+  }
+  .lastsection h1{
+    font-size:55px;
+  }
+  .footer{
+    font-size: 8px;
+    padding: 2rem;
+  }
+  .links a{
+    font-size: 20px;
+  }
+
+}
+@media (max-width: 768px) {
+
+  nav {
+    width: 97%;
+    height: 80px;
+  }
+  nav .a{
+    padding:.6rem;
+  }
+
+  .navpic {
+    height:65px ;
+    width:65px;
+  }
+
+  nav ul li {
+    padding: 0rem 1rem ;
+  }
+  
+  .contant h1 {
+    font-size: 65px;
+  }
+
+  .contant p {
+    font-size: 22px;
+  }
+  
+  .contant a {
+    font-size: 25px;
+    padding: 7px 16px;
+  }
+
+  .main2 {
+    width: 80%;
+  }
+  .main2 h1 {
+    font-size: 45px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+
+  .main3 h1 {
+    font-size: 50px;
+    padding: 2rem;
+  }
+  
+  .cards {
+    grid-template-columns: 1fr 1fr ;
+    gap: 70px; 
+  }
+
+  .h1 {
+    font-size: 45px;
+  }
+
+  .Experience h1 {
+    font-size: 55px;
+    padding: 1.5rem 1rem;
+  }
+
+  .Experience h2 {
+    font-size: 35px;
+    padding: .5rem ;
+  }
+
+  marquee h1 {
+    font-size: 65px;
+  }
+
+  .plans-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main8 h1 {
+    font-size: 18px;
+  }
+
+  .main8 button {
+    font-size: 20px;
+  }
+
+  .Partners h1 {
+    font-size: 45px;
+    padding: 2rem 1rem;
+  }
+  
+  .Partners img {
+    margin: 2rem 0.5rem;
+    height: 100px ;
+    width: 110px;
+  }
+
+  .carda {
+    height: 65vh;
+    width: 30%;
+  }
+
+  .carda img {
+    height: 70px;
+    width: 70px;
+    margin: 20px 74px;
+  }
+  .main10 h1{
+    font-size: 45px;
+  }
+
+  .icons h2{
+    font-size: 2rem ; 
+    padding: 1rem 1.6rem;
+
+  }
+  .lastsection h1{
+    font-size:45px;
+  }
+
+  .footer{
+    font-size: 7px;
+    padding: 2rem;
+  }
+  .links a{
+    font-size: 15px;
+  }
+
+  form input{
+    width: 38%;
+    left: 5%;
+  }
+
+  form textarea{
+    height: 12vh;
+    width: 85%;
+    left: 5%;
+    padding: 1rem 2rem;
+  }
+
+  .lastsection button{
+    font-size: 20px;
+    padding: 20px 22px;
+    left: 38%;
+  }
+  
+  .contactcard{
+    padding:2rem ;
+    border-radius: 20px;
+  }
+
+  .contactcard h2{
+    font-size: 30px;
+    padding-bottom: 1rem;
+  }
+
+  .contactcard h3{
+    font-size: 13px;
+  }
+
+}
+@media (max-width: 425px) {
+  nav ul{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: rgba(211, 208, 208, 0.95);
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  nav .a{
+    padding: .7rem;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+ 
+
+  .contant h1 {
+    font-size: 60px;
+  }
+
+  .contant a {
+    font-size: 25px;
+    border: 2px solid #fff;
+    padding: 12px 20px;
+  }
+
+  .main1 {
+    padding-top: 50px;
+  }
+  
+  .main2 {
+    width: 85%;
+  }
+  
+  .main2 h1 {
+    font-size: 45px;
+    padding: 2rem 1rem 1rem 2rem;
+  }
+  
+  p {
+    font-size: 22px;
+    padding: 1rem 2rem;
+  }
+
+  .main3 h1 {
+    font-size: 45px;
+  }
+  
+  .cards {
+    grid-template-columns: 1fr ;
+  }
+
+  .h1 {
+    font-size: 40px;
+  }
+
+  .carousel-cell {
+    width: 100%;
+    height: 400px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+  }
+  
+  .carousel h1 {
+    font-size: 30px;
+    padding: .5rem;
+  }
+  .carousel p{
+    font-size: 20px;
+    padding: 1rem;
+  }
+  .Experience{
+    display: block;
+  }
+
+  .Experience h1 {
+    font-size: 50px;
+    padding: 1.5rem 1rem;
+  }
+
+  .Experience h2 {
+    font-size: 30px;
+    padding: .5rem ;
+  }
+
+  marquee h1 {
+    font-size: 45px;
+  }
+
+  .pricing h1 {
+    font-size: 45px;
+  }
+
+  .plans-container {
+    grid-template-columns: 1fr;
+  }
+  .plan h2 {
+    font-size: 2rem;
+  }
+  .plans button {
+    padding: 20px 30px;
+    margin: 1.2rem ;
+  }
+
+  .main8 h1 {
+    font-size: 16px;
+  }
+
+  .main8 button {
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 25px;
+  }
+
+  .Partners h1 {
+    font-size: 40px;
+  }
+  
+  .Partners img {
+    height: 100px ;
+    width: 100px;
+  }
+  .Partnerpics {
+    width: 95%;
+    display: block;
+    margin-left: 1.2rem;    
+  }
+  .main9{
+    height: auto;
+    display: block
+  }
+  .carda {
+    margin-top:2rem ;
+    height: 60vh;
+    width: 90%;
+  }
+
+  .carda img {
+    position: relative;
+    left: 18%;
+  }
+
+  .icons h2{
+    padding: .8rem 1.2rem;
+
+  }
+
+  form input{
+    font-size: 15px;
+    width: 32%;
+    left: 0%;
+  }
+
+  form textarea{
+    left: 2%;
+    font-size: 15px;
+  }
+
+  .lastsection button{
+    left: 28%;
+  }
+  
+  .Contactsection{
+    display: block;
+  }
+  .contactcard{
+    width: 90%;
+    padding:1rem ;
+    border-radius: 20px;
+  }
+
+  .contactcard h2{
+    font-size: 27px;
+    padding-bottom: 2rem;
+  }
+
+  .contactcard h3{
+    font-size: 15px;
+  }
+  .footer{
+    font-size: 8px;
+    padding: 1rem;
+  }
+
+  .links a{
+    font-size: 12px;
+    padding: 1rem 1rem;
+  }
+}
